@@ -16,3 +16,11 @@ This code was originally taken from https://github.com/lzyms/ESP32IoTCentral, an
 
 Many changes were made
 
+# Instructions
+1. Plug in a DHT11 with data pin connected to GPIO19 (or another but you will need to change the code)
+2. Download and unzip the repo
+3. Open the unzipped folder in VS Code with the platformio extension installed
+4. Update iot_configs.h with your WiFI credentials and connection string (you get this from setting up your Azure IoT Central App and provisioning a device)
+5. Try compiling, lots of warnings, but we live life on the edge
+6. Upload and open the serial monitor. You should see messages about connecting to Wifi, to Azure IoT and then every 10 seconds about an attempt to send data 
+7. Messages should be available in your Azure Iot Central app now
