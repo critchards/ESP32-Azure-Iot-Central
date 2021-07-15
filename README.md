@@ -11,7 +11,7 @@ https://github.com/Azure/dps-keygen.
 Further details on how to provision with different approaches are found here,
 https://github.com/Azure/azure-iot-device-ecosystem/blob/master/setup_iothub.md#create-new-device-in-the-iot-hub-device-identity-registry
 
-platformio.ini was modified to include necsssary libraries and build flags. Thank you to https://github.com/maxgerhardt/pio-azure-iot-arduino-demo for providing details
+platformio.ini was modified to include necessary libraries and build flags. Thank you to https://github.com/maxgerhardt/pio-azure-iot-arduino-demo for providing details
 
 This code was originally taken from https://github.com/lzyms/ESP32IoTCentral, and appears to be in alignment with the current getting started guide for ESP32 on Azure Samples at https://github.com/Azure-Samples/esp32-iot-devkit-get-started
 
